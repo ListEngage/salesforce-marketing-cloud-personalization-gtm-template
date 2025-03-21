@@ -1,0 +1,5 @@
+homepage: "https://www.salesforce.com/marketing/personalization/"
+documentation: "https://help.salesforce.com/s/articleView?id=mktg.mc_pers.htm&type=5"
+versions:
+  - sha: 064a6add32035f8b954f5cb7e99bc6d519702759
+    changeNotes: Initial release.
