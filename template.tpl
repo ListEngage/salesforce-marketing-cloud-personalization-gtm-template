@@ -80,7 +80,7 @@ const onFailure = () => {
 
 // If the URL input by the user matches the permissions set for the template,
 // inject the script with the onSuccess and onFailure methods as callbacks.
-let url = 'https://cdn.evgnet.com/beacon/' + mcpAccountId + '/' + mcpDataset + '/scripts/evergage.min.js';
+let url = encodeUri('https://cdn.evgnet.com/beacon/' + mcpAccountId + '/' + mcpDataset + '/scripts/evergage.min.js');
 
 if (queryPermission('inject_script', url)) {
   injectScript(url, onSuccess, onFailure);
